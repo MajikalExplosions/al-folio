@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://joseph-al-folio.liu.us/sitemap.xml
+Sitemap: https://joseph.liu.us/sitemap.xml
