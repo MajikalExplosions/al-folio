@@ -1,5 +1,6 @@
 ---
 ---
+<!-- Handle a single publication entry. -->
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -188,7 +189,7 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
+      {% if entry.award_name %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>

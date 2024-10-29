@@ -25,89 +25,239 @@
       "startDate": "2022-08-15",
       "endDate": "2025-05-15",
       "score": "4.0",
-      "courses": ["Artficial Intelligence", "Machine Learning", "LLMs in Natural Language Processing", "Foundations of Multi-Agent Systems", "Algorithms", "Linear Algebra", "Differential Equations", "Operating Systems", "Computer Systems"]
+      "courses": ["Artficial Intelligence", "Machine Learning", "LLMs in Natural Language Processing", "Foundations of Multi-Agent Systems", "Probablity", "Discrete Math", "Operating Systems", "Computer Systems"]
+    },
+    {
+      "institution": "Santa Clara University(SCU)",
+      "location": "Santa Clara, CA",
+      "url": "https://www.scu.edu",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "2021-09-15",
+      "endDate": "2022-06-15",
+      "score": "3.94",
+      "courses": ["Algorithms", "Linear Algebra", "Differential Equations"]
     }
+  ],
+  "research": [
+    {
+      "name": "IDM Lab, USC",
+      "position": "",
+      "location": "Los Angeles, CA",
+      "startDate": "2024-05-15",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Implementing custom Gymnasium reinforcement learning environment for model training", "Designing and optimizing reward functions to enhance model performance", "Developed predictive models to optimize node exploration in ECBS multi-agent pathfinding algorithm", "Mentored by Yimin Tang, advised by Prof. Sven Koenig"]
+    },
+    {
+      "name": "Data, Interpretability, Language, and Learning (DILL) Lab, USC",
+      "position": "",
+      "location": "Los Angeles, CA",
+      "startDate": "2024-01-15",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Developing novel evaluation methods for text simplification tasks", "Implementing Large Language Model (LLM)-driven metrics for model assessment", "Designed and implemented perplexity-based methods, and evaluated performance on human ratings", "Mentored by Xinyue Cui and Yoonsoo Nam, advised by Prof. Swabha Swayamdipta"],
+    },
+    {
+      "name": "Computation and Data Driven Discovery Group, USC",
+      "position": "",
+      "location": "Los Angeles, CA",
+      "startDate": "2023-08-15",
+      "endDate": "2023-12-15",
+      "summary": "",
+      "highlights": ["Worked on physics-informed machine learning techniques to model wildfire spread using diffusion and GAN models", "Mentored by Bryan Shaddy, advised by Prof. Assad Oberai"],
+    },
+    {
+      "name": "Researcher (Variable Stars in Andromeda Galaxy), UC Santa Cruz",
+      "position": "",
+      "location": "Santa Cruz, CA",
+      "startDate": "2020-06-15",
+      "endDate": "2021-08-15",
+      "summary": "",
+      "highlights": ["Built a webpage and a graphical Python application to help efficiently visualize, categorize, and compare 1000+ stars", "Discovered and identified missing portions of the PHAT dataset around brick edges with computational geometry", "Optimized database queries by a factor of over 100, by reducing request count using batching, slicing data, and joins", "Parallelized cubic-time array operations in difference imaging data pipelines using NumPy matrix operations", "Mentored and supervised team of high school students, providing technical guidance and reference materials to Python libraries and previous work during and outside of weekly meetings", "Co-authored a paper in 2024 and a poster in 2022"],
+    },
+  ],
+  "teaching": [
+    {
+      "name": "University of Southern Californa",
+      "position": "Teaching Assistant",
+      "location": "Los Angeles, CA",
+      "startDate": "2024-05-15",
+      "endDate": "2024-07-15",
+      "summary": "",
+      "highlights": ["Teaching Assistant for CSCI-201: Principles of Software Development", "Helped the professor prepare the computer lab exercises and coached students in the lab for their coding assignments"]
+    },
+    {
+      "name": "Santa Clara University",
+      "position": "Grader",
+      "location": "Santa Clara, CA",
+      "startDate": "2022-03-15",
+      "endDate": "2022-06-15",
+      "summary": "",
+      "highlights": ["Grader for CSCI 163: Theory of Algorithms", "As a freshman, graded homework and exams for a course primarily taken by upperclassmen"],
+    },
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Stellantis N.V.",
+      "position": "Data Science Intern",
+      "location": "Auburn Hills, MI (Remote)",
+      "startDate": "2023-05-15",
+      "endDate": "2023-08-15",
+      "summary": "",
+      "highlights": ["Refactored and automated machine learning sales prediction pipeline, decreasing interruptions by 86%, runtime by 30% and cost by 25%", "Increased data quality by identifying and fixing multiple functional bugs that affected 60% of sales dataset", "Investigated potential features for better model performance and candidates for further feature engineering", "Presented findings and work to an audience of 80, including multiple directors and VPs", "Received return offer for Summer 2024"]
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "iKala Interactive Media Inc.",
+      "position": "Machine Learning Intern",
+      "location": "Taipei, Taiwan",
+      "startDate": "2022-06-15",
+      "endDate": "2022-08-15",
+      "summary": "",
+      "highlights": ["Researched state-of-the-art methodologies in Computer Vision (CV) and Natural Language Processing (NLP) for video analysis, presenting weekly findings to intern team", "Designed and implemented a Transformer-based model for multimodal (video and audio) embedding generation with PyTorch, achieving 60% precision on AudioSet dataset"],
     },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+      "name": "Medical Case Report Search with AI",
+      "summary": "Developing website to search case report database using intelligent symptom and complication matching",
+      "highlights": [ ],
+      "startDate": "2024-09-01",
+      "endDate": "",
+    },
+    {
+      "name": "Generative Models in Protein Engineering",
+      "summary": "Investigated protein representations and generation approaches, and current challenges and opportunities in generative protein models",
+      "highlights": [ ],
+      "startDate": "2024-08-01",
+      "endDate": "",
+    },
+    {
+      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "summary": "Investigated the effects of prompt engineering techniques like chain-of-thought on debugging skills of general LLMs and analyzed failure cases to identify causes",
+      "highlights": [ ],
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-15",
+      "url": "https://drive.google.com/file/d/1UDPu4PEG_EYSDQk2ww7RyaXdnmBFShyj/view?usp=drive_link"
+    },
+    {
+      "name": "Earnings Call Analysis with Machine Learning",
+      "summary": "Automated scraping of earnings call transcripts from multiple online sources, analyzed sentiment using AWS SageMaker, built pipeline to extract audio features, and computed embeddings for machine learning using open-source libraries",
+      "highlights": [ ],
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-30",
+    },
+    {
+      "name": "Using CNNs to Identify Exoplanet Candidates",
+      "summary": "Conducted independent research into feasibility of using CNNs on photometric data to identify candidate exoplanets; collected and augmented data to train 3DCNN model for binary classification with PyTorch, achieving 61% accuracy",
+      "highlights": [ ],
+      "startDate": "2021-09-01",
+      "endDate": "2022-03-30",
+    },
+  ],
+  "awards": [
+    {
+      "title": "USC Provost’s Undergrad Research Fellowship",
+      "date": "2024-09",
+      "awarder": "The Office of the Provost, University of Southern California",
+      "url": "https://careers.usc.edu/experiences/usc-provosts-undergrad-research-fellowships-2/",
+      "summary": "The USC Office of the Provost awards this competitive undergraduate research fellowship to select students. Recipients receive a $1,000 stipend for conducting research for a minimum of ten weeks at 10 hours per week."
+    },
+    {
+      "title": "USC Center for Undergraduate Research in Viterbi Engineering Fellowship",
+      "date": "2023-09",
+      "awarder": "Viterbi School of Engineering, University of Southern California",
+      "url": "https://viterbiundergrad.usc.edu/research/curve/",
+      "summary": "The USC Center for Undergraduate Research in Viterbi Engineering (CURVE) Program awards this competitive undergraduate research fellowship to select students. Recipients receive a $1,250 ($3,000 in summer) stipend for conducting research for a minimum of 10 hours per week throughout the semester. $5,500 total award received."
+    },
+    {
+      "title": "USC Viterbi Dean's List",
+      "date": "2023-09",
+      "awarder": "Viterbi School of Engineering, University of Southern California",
+      "url": "https://viterbiundergrad.usc.edu/deans-list/",
+      "summary": "certificate award for students with 3.5+ GPA"
+    },
+    {
+      "title": "SCU Dean’s Scholarship",
+      "date": "2021-03-18",
+      "awarder": "Financial Aid Office, Santa Clara University",
+      "url": "https://j.liu.us/assets/pdf/2021-0318-SCU-Scholarship.pdf",
+      "summary": "Santa Clara University's Financial Aid Office awards this competitive merit-based Dean's Scholarship. Recipients receive $8,100, distributed as $2,700 per quarter. The scholarship is renewable for up to twelve consecutive quarters."
+    },
+    {
+      "title": "Northeastern University Honors Scholarship",
+      "date": "2021-01-27",
+      "awarder": "Northeastern University Admissions Committee",
+      "url": "https://j.liu.us/assets/pdf/2021-0127-Northeastern-Scholarship.pdf",
+      "summary": "The Honors Scholarship is a merit-based award for selected Northeastern University Honors Program students. Recipients receive $22,000 in their freshman year and $11,000 per semester thereafter, with a maximum total award of $88,000."
+    },
+  ],
+  "publications": [
+    {
+      "name": "Generative Models in Protein Engineering: A Comprehensive Survey",
+      "author": "Xinhui Chen*,  Yiwen Yuan*,  <i>Joseph Liu*</i>,  Chak Tou Leong,  Xie Zhen,  Xiaoye Zhu,  Yue Wang, Yifei Ke, Ying Chen, Songyue Chen, Chenyi Wang, Kun Li, Jie Zhang, Zuchao Li, and Jiaqi Chen",
+      "publisher": "NeurIPS 2024 Foundation Models for Science Workshop",
+      "releaseDate": "2024-12-15",
+      "url": "https://j.liu.us/assets/pdf/2024-1018-NeurIPS-Protein.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Variable Stars in M31 Stellar Clusters from the Panchromatic Hubble Andromeda Treasury",
+      "author": "Richard Smith,  Avi Patel,  Monika D. Soraisam,  Puragra Guhathakurta,  Pranav Tadepalli,  Sally Zhu,  <i>Joseph Liu</i>, and Léo Girardi, L. Clifton Johnson, Sagnick Mukherjee, Knut A. G. Olsen, Benjamin F. Williams",
+      "publisher": "The Astrophysical Journal",
+      "releaseDate": "2024-10",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ad6eff",
+      "summary": ""
+    },
+    {
+      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "author": "Keyu He*,  Max Li*, and  <i>Joseph Liu*</i>",
+      "publisher": "Technical Report",
+      "releaseDate": "2023-12-11",
+      "url": "https://j.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Predicting Game Popularity from Steam Descriptions",
+      "author": "<i>Joseph Liu</i>",
+      "publisher": "Technical Report",
+      "releaseDate": "2023-05-01",
+      "url": "https://j.liu.us/assets/pdf/2023-0501-Predicting-Game-Popularity.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Variable Stars in M31 Stellar Clusters using the Panchromatic Hubble Andromeda",
+      "author": "Avi Patel, Sagnick Mukherjee, Monika Soraisam, Puragra Guhathakurta, <i>Joseph Liu</i>, and Pranav Tadepalli",
+      "publisher": "Bulletin of the AAS",
+      "releaseDate": "2022-06-29",
+      "url": "https://baas.aas.org/pub/2022n6i201p02",
+      "summary": ""
+    },
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [ "Python", "Java", "C++", "C#", "SQL", "JavaScript", "x86-64 Assembly"]
+    },
+    {
+      "name": "Frameworks/Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [ "PyTorch", "Pandas", "NumPy", "Git", "AWS"]
+    },
+    {
+      "name": "Environments",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [ "Unix/Linux", "Windows", "MacOS"]
+    },
+    {
+      "name": "Areas of Expertise",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [ "Machine Learning", "Natural Language Processing (NLP)", "Large Language Models (LLMs)", "Data Structures","Algorithms", "Probability", "Statistic"]
+    },
+  ],
 }
