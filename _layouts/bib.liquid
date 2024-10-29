@@ -47,7 +47,15 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+    {% if entry.url %}
+      <a href="{{ entry.url }}">
+    {% endif %}
+    {{ entry.title }}
+    {% if entry.url %}
+      </a>
+    {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -81,22 +89,18 @@
           {% if forloop.first == false %},&nbsp;{% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
+        {% assign author_close = "" %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
-        {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-          {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+          {%- assign author_close = "</em>" -%}
         {%- endif -%}
+        {%- if coauthor_url -%}
+          <a href="{{ coauthor_url }}">
+          {%- assign author_close = "</a>" | append: author_close -%}
+        {%- endif -%}
+        {{- author.first }}
+        {{ author_last_html -}}
+        {{- author_close -}}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 

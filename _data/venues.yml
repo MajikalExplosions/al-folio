@@ -2,6 +2,12 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"APJ":
+  url: https://iopscience.iop.org/journal/0004-637X
+
+"NeurIPS":
+  url: https://neurips.cc/
+
 "PhysRev":
   url: https://journals.aps.org/
 

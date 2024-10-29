@@ -1,25 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+nav_link: /#
+subtitle:
+header: false
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: 2024-0105-joseph-head-circle.png
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Joseph Liu</p><br>
+    <p>California</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
+embed_cv: true # embed CV in this page
+cv_pdf: joseph-cv.pdf
+cv_title: CV
+cv_link: /cv/
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h4 class="no_toc">Hi there 👋, I am Joseph. <br>
+<div align="right">🎊 Thrilled to see you here!! 🎊</div></h4>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a senior Computer Science student at the [University of Southern California](https://usc.edu). As someone who thrives on exploration rather than repetition, I am passionate about leveraging technology to simplify people's lives by automating tedious tasks – from daily chores and writing to autonomous driving. This vision has led me to explore the transformative potential of Artificial Intelligence and Machine Learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am pursuing dual research tracks at USC with the support of the [CURVE](https://viterbiundergrad.usc.edu/research/curve/) and [Provost](https://careers.usc.edu/experiences/usc-provosts-undergrad-research-fellowships-2/) Fellowships. Under Prof. [Swabha Swayamdipta](https://swabhs.com/)'s guidance and mentorship of [Xinyue Cui](https://x-f-cui.github.io/website/), I develop evaluation methodologies for assessing Large Language Models' performance in text simplification tasks. Under Prof. [Sven Koenig](https://ics.uci.edu/~svenk/)'s advisement and [Yimin Tang](https://sites.google.com/view/yimintang)'s mentorship, I work on multi-agent pathfinding, implementing custom Gymnasium environments for training reinforcement learning models in Enhanced Conflict-Based Search (ECBS) algorithms. Our research in both domains is progressing toward publication submissions by the end of this year.
