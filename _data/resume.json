@@ -56,7 +56,7 @@
       "startDate": "2024-01-15",
       "endDate": "",
       "summary": "",
-      "highlights": ["Developing novel evaluation methods for text simplification tasks", "Implementing Large Language Model (LLM)-driven metrics for model assessment", "Designed and implemented perplexity-based methods, and evaluated performance on human ratings", "Mentored by Xinyue Cui and Yoonsoo Nam, advised by Prof. Swabha Swayamdipta"],
+      "highlights": ["Developing novel evaluation methods for text simplification tasks", "Implementing Large Language Model (LLM)-driven metrics for model assessment", "Designed and implemented perplexity-based methods, and evaluated performance on human ratings", "Mentored by Xinyue Cui and Yoonsoo Nam, advised by Prof. Swabha Swayamdipta"]
     },
     {
       "name": "Computation and Data Driven Discovery Group, USC",
@@ -65,7 +65,7 @@
       "startDate": "2023-08-15",
       "endDate": "2023-12-15",
       "summary": "",
-      "highlights": ["Worked on physics-informed machine learning techniques to model wildfire spread using diffusion and GAN models", "Mentored by Bryan Shaddy, advised by Prof. Assad Oberai"],
+      "highlights": ["Worked on physics-informed machine learning techniques to model wildfire spread using diffusion and GAN models", "Mentored by Bryan Shaddy, advised by Prof. Assad Oberai"]
     },
     {
       "name": "Researcher (Variable Stars in Andromeda Galaxy), UC Santa Cruz",
@@ -74,8 +74,8 @@
       "startDate": "2020-06-15",
       "endDate": "2021-08-15",
       "summary": "",
-      "highlights": ["Built a webpage and a graphical Python application to help efficiently visualize, categorize, and compare 1000+ stars", "Discovered and identified missing portions of the PHAT dataset around brick edges with computational geometry", "Optimized database queries by a factor of over 100, by reducing request count using batching, slicing data, and joins", "Parallelized cubic-time array operations in difference imaging data pipelines using NumPy matrix operations", "Mentored and supervised team of high school students, providing technical guidance and reference materials to Python libraries and previous work during and outside of weekly meetings", "Co-authored a paper in 2024 and a poster in 2022"],
-    },
+      "highlights": ["Built a webpage and a graphical Python application to help efficiently visualize, categorize, and compare 1000+ stars", "Discovered and identified missing portions of the PHAT dataset around brick edges with computational geometry", "Optimized database queries by a factor of over 100, by reducing request count using batching, slicing data, and joins", "Parallelized cubic-time array operations in difference imaging data pipelines using NumPy matrix operations", "Mentored and supervised team of high school students, providing technical guidance and reference materials to Python libraries and previous work during and outside of weekly meetings", "Co-authored a paper in 2024 and a poster in 2022"]
+    }
   ],
   "teaching": [
     {
@@ -94,8 +94,8 @@
       "startDate": "2022-03-15",
       "endDate": "2022-06-15",
       "summary": "",
-      "highlights": ["Grader for CSCI 163: Theory of Algorithms", "As a freshman, graded homework and exams for a course primarily taken by upperclassmen"],
-    },
+      "highlights": ["Grader for CSCI 163: Theory of Algorithms", "As a freshman, graded homework and exams for a course primarily taken by upperclassmen"]
+    }
   ],
   "work": [
     {
@@ -114,8 +114,8 @@
       "startDate": "2022-06-15",
       "endDate": "2022-08-15",
       "summary": "",
-      "highlights": ["Researched state-of-the-art methodologies in Computer Vision (CV) and Natural Language Processing (NLP) for video analysis, presenting weekly findings to intern team", "Designed and implemented a Transformer-based model for multimodal (video and audio) embedding generation with PyTorch, achieving 60% precision on AudioSet dataset"],
-    },
+      "highlights": ["Researched state-of-the-art methodologies in Computer Vision (CV) and Natural Language Processing (NLP) for video analysis, presenting weekly findings to intern team", "Designed and implemented a Transformer-based model for multimodal (video and audio) embedding generation with PyTorch, achieving 60% precision on AudioSet dataset"]
+    }
   ],
   "projects": [
     {
@@ -123,14 +123,14 @@
       "summary": "Developing website to search case report database using intelligent symptom and complication matching",
       "highlights": [ ],
       "startDate": "2024-09-01",
-      "endDate": "",
+      "endDate": ""
     },
     {
       "name": "Generative Models in Protein Engineering",
       "summary": "Investigated protein representations and generation approaches, and current challenges and opportunities in generative protein models",
       "highlights": [ ],
       "startDate": "2024-08-01",
-      "endDate": "",
+      "endDate": ""
     },
     {
       "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
@@ -145,15 +145,15 @@
       "summary": "Automated scraping of earnings call transcripts from multiple online sources, analyzed sentiment using AWS SageMaker, built pipeline to extract audio features, and computed embeddings for machine learning using open-source libraries",
       "highlights": [ ],
       "startDate": "2021-11-01",
-      "endDate": "2022-06-30",
+      "endDate": "2022-06-30"
     },
     {
       "name": "Using CNNs to Identify Exoplanet Candidates",
       "summary": "Conducted independent research into feasibility of using CNNs on photometric data to identify candidate exoplanets; collected and augmented data to train 3DCNN model for binary classification with PyTorch, achieving 61% accuracy",
       "highlights": [ ],
       "startDate": "2021-09-01",
-      "endDate": "2022-03-30",
-    },
+      "endDate": "2022-03-30"
+    }
   ],
   "awards": [
     {
@@ -183,7 +183,7 @@
       "awarder": "Financial Aid Office, Santa Clara University",
       "url": "https://j.liu.us/assets/pdf/2021-0318-SCU-Scholarship.pdf",
       "summary": "Santa Clara University's Financial Aid Office awards this competitive merit-based Dean's Scholarship. Recipients receive $8,100, distributed as $2,700 per quarter. The scholarship is renewable for up to twelve consecutive quarters."
-    },
+    }
   ],
   "publications": [
     {
@@ -225,7 +225,7 @@
       "releaseDate": "2022-06-29",
       "url": "https://baas.aas.org/pub/2022n6i201p02",
       "summary": ""
-    },
+    }
   ],
   "skills": [
     {
@@ -251,6 +251,6 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [ "Machine Learning", "Natural Language Processing (NLP)", "Large Language Models (LLMs)", "Data Structures","Algorithms", "Probability", "Statistic"]
-    },
-  ],
+    }
+  ]
 }
