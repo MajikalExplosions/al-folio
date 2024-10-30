@@ -1,25 +1,7 @@
 <div class="post">
   <a class="anchor" id="CV"></a>
   <header class="post-header">
-    {% assign hopen = "" %}
-    {% assign hclose = "" %}
-    {% if page.embed_cv != true %}
-      <!-- stand alone CV page -->
-      {% capture hopen -%}
-      <h2 class="post-title">{{ page.title }}
-      {%- endcapture %}
-      {% assign hclose = "</h2>" %}
-    {% else %}
-      <!-- CV embeded in another page -->
-      {% capture hopen -%}
-      <hr><h3>
-      <a href="{{ page.cv_link | relative_url }}" style="color: inherit">
-        {{ page.cv_title }}
-      </a>
-      {%- endcapture %}
-      {% assign hclose = "</h3>" %}
-    {% endif %}
-    {{ hopen }}
+    {% capture pdf_html %}
     {% if page.cv_pdf %}
       <a
         href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
@@ -29,8 +11,23 @@
       ><i class="fa-solid fa-file-pdf"></i
       ></a>
     {% endif %}
-    {{ hclose }}
+    {% endcapture %}
 
+    {% if page.embed_cv != true %}
+      <!-- stand alone CV page -->
+      <h2 class="post-title">
+        {{- page.title | append: pdf_html -}}
+      </h2>
+    {% else %}
+      <!-- CV embeded in another page -->
+      <hr>
+      <h3 class="post-title">
+        <a href="{{ page.cv_link | relative_url -}}" style="color: inherit">
+          {{- page.cv_title -}}
+        </a>
+        {{ pdf_html }}
+      </h3>
+    {% endif %}
     {% if page.description %}
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
