@@ -37,6 +37,11 @@ table {
   }
 }
 
+// add underline dash
+.a-udash a {
+  border-bottom: 1px dashed var(--global-theme-color);
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);

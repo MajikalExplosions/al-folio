@@ -8,6 +8,7 @@
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
+$red-color-darker: #750014 !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
@@ -26,10 +27,12 @@ $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-light-dark: #474747;
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
 $white-color: #ffffff !default;
+$off-white-color: #f4f4f4;
 $black-color: #000000 !default;
 
 // Theme colors
