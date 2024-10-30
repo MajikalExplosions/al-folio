@@ -8,7 +8,7 @@ header: false
 
 profile:
   align: left
-  image: 2024-0105-joseph-head-circle.png
+  image: 2024-0105-joseph-square-1400.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 
