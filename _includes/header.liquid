@@ -1,8 +1,16 @@
 <header>
+  <script>
+    const collapseNavbarNav = () => {
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+    };
+  </script>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if page.permalink != '/' and site.nav_show_title %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
@@ -22,6 +30,7 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
+        {% assign section = "header" %}
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
@@ -47,8 +56,8 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}#">
+          <li class="nav-item about {% if page.permalink == '/' %}active{% endif %}">
+            <a class="nav-link about" href="{{ '/' | relative_url }}#" onClick="collapseNavbarNav()">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -76,6 +85,7 @@
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
+                    onClick="collapseNavbarNav()"
                   >
                     {{- p.title }}
                     {% if page.title == p.title or has_active_child %}
@@ -104,7 +114,7 @@
                   {% else %}
                     {% assign url = p.url %}
                   {% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{{ url | relative_url }}"" onClick=collapseNavbarNav()>
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
@@ -118,7 +128,7 @@
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                <span class="nav-link"><i class="ti ti-search"></i><sup>^k</sup></span>
               </button>
             </li>
           {% endif %}

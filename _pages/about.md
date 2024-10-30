@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Joseph Liu
 permalink: /
 nav_link: /#
 subtitle:
@@ -20,7 +20,7 @@ cv_title: CV
 cv_link: /cv/
 social: true # includes social icons at the bottom of the page
 ---
-I am <span style="font-size: 32px;">Joseph Liu</span>.
+
 ##### Hi there 👋👋.  Glad to see you here!! 🎊
 \
 I am a senior Computer Science student at the [University of Southern California](https://usc.edu). As someone who thrives on exploration rather than repetition, I am passionate about leveraging technology to simplify people's lives by automating tedious tasks – from daily chores and writing to autonomous driving. This vision has led me to explore the transformative potential of Artificial Intelligence and Machine Learning.

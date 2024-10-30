@@ -7,7 +7,7 @@
 {% if site.whatsapp_number %}
   <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
 {% endif %}
-{% if site.orcid_id %}
+{% if site.orcid_id and section != "header" %}
   <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
 {% endif %}
 {% if site.scholar_userid %}
@@ -121,7 +121,7 @@
 {% if site.zotero_username %}
   <a href="https://www.zotero.org/{{ site.zotero_username }}" title="Zotero"><i class="ai ai-zotero"></i></a>
 {% endif %}
-{% if site.rss_icon %}
+{% if site.rss_icon and section != "header" %}
   <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
 {% endif %}
 {% if site.wechat_qr %}
