@@ -1,7 +1,6 @@
 ---
 layout: post
 title: NeurIPS Workshop accepted our paper for oral presentation
-slug: NeurIPS-Protein
 date: 2024-10-18 12:00:00-0800
 inline: false
 related_posts: false
