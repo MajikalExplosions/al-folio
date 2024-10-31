@@ -1,37 +1,4 @@
 <div class="post">
-  <a class="anchor" id="CV"></a>
-  <header class="post-header">
-    {% capture pdf_html %}
-    {% if page.cv_pdf %}
-      <a
-        href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="float-right"
-      ><i class="fa-solid fa-file-pdf"></i
-      ></a>
-    {% endif %}
-    {% endcapture %}
-
-    {% if page.embed_cv != true %}
-      <!-- stand alone CV page -->
-      <h2 class="post-title">
-        {{- "Curriculum Vitae" | append: pdf_html -}}
-      </h2>
-    {% else %}
-      <!-- CV embeded in another page -->
-      <hr>
-      <h3 class="post-title">
-        <a href="{{ page.cv_link | relative_url -}}" style="color: inherit">
-          Curriculum Vitae
-        </a>
-        {{ pdf_html }}
-      </h3>
-    {% endif %}
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
   {% unless site.data.resume %}
     <article>
       <div class="cv">

@@ -1,0 +1,19 @@
+{% include cv-header.liquid %}
+
+{% assign toc_content = "" %}
+{% capture toc_content %}
+  {% include cv-content.liquid %}
+{% endcapture %}
+
+{% unless toc_sidebar %}
+  {% if page.toc and page.toc.sidebar %}
+    {% assign toc_sidebar = page.toc.sidebar %}
+  {% endif %}
+{% endunless %}
+
+{% if toc_sidebar %}
+  <!-- put the content inside toc element -->
+  {% include toc.liquid %}
+{% else %}
+  {{ toc_content }}
+{% endif %}

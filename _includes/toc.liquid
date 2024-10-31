@@ -1,0 +1,29 @@
+{% comment %} 
+Use this template to create TOC navgation for a comment.
+Assign content to toc_content and tell this templete
+if you want to put the sidebar on the 'left' or 'right' side. 
+{% endcomment  %}
+
+<script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
+
+{% if toc_sidebar == 'right' %}
+  <div class="row">
+    <!-- main content area -->
+    <div class="col-sm-9" data-spy="scroll" data-target="#toc-sidebar">
+      {{ toc_content }}
+    </div>
+    <div class="col-sm-3">
+      <nav id="toc-sidebar" data-toggle="toc" class="sticky-top"></nav>
+    </div>
+  </div>
+{% else %}
+  <div class="row">
+    <div class="col-sm-3">
+      <nav id="toc-sidebar" class="sticky-top"></nav>
+    </div>
+    <!-- main content area -->
+    <div class="col-sm-9" data-spy="scroll" data-target="#toc-sidebar">
+      {{ toc_content }}
+    </div>
+  </div>
+{% endif %}
