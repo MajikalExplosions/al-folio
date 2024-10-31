@@ -22,12 +22,13 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+  <div class="post">
+    <h2 class="post-title">{{ site.blog_name }}</h2>
+    {% if site.blog_description %}
+      <p>{{ site.blog_description }}</p>
+    {% endif %}
   </div>
-  {% endif %}
+{% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -127,7 +128,7 @@ pagination:
 <div class="row">
           <div class="col-sm-9">
 {% endif %}
-        <h3>
+        
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% elsif post.redirect contains '://' %}
@@ -138,7 +139,7 @@ pagination:
         {% else %}
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
-      </h3>
+      
       <p>{{ post.description }}</p>
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;

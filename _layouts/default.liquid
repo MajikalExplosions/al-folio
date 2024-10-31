@@ -21,7 +21,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container {% if site.navbar_fixed %} mt-5 {% else %} mt-3 {% endif %} mb-5" role="main">
+    <div class="container {% if site.navbar_fixed %} mt-5 pt-3 {% else %} mt-3 {% endif %} mb-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
