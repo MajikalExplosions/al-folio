@@ -3,11 +3,9 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 50px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
   font-weight: normal !important;
-  padding-top: 25px !important;
   h1,
   h2,
   h3,
@@ -19,14 +17,22 @@ body {
   }
 }
 
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
+.sticky-top-nav {
+  padding-top: 0rem !important;
 }
 
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
+.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 4rem;
+}
+
+.sticky-bottom-footer {
+  // Remove padding below footer. Do not change.
+  padding-bottom: 0rem !important;
+}
+
+.fixed-bottom-footer {
+  padding-bottom: 3rem;
 }
 
 .container {

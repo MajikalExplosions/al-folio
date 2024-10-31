@@ -29,13 +29,13 @@
     function progressBarSetup() {
       if ('max' in document.createElement('progress')) {
         initializeProgressElement();
-        $(document).on('scroll', function () {
+        $("#main-viewport").on('scroll', function () {
           progressBar.attr({ value: getCurrentScrollPosition() });
         });
         $(window).on('resize', initializeProgressElement);
       } else {
         resizeProgressBar();
-        $(document).on('scroll', resizeProgressBar);
+        $("#main-viewport").on('scroll', resizeProgressBar);
         $(window).on('resize', resizeProgressBar);
       }
     }
@@ -45,14 +45,17 @@
      * how much the user has scrolled from the top
      */
     function getCurrentScrollPosition() {
-      return $(window).scrollTop();
+      return $("#main-viewport").scrollTop();
     }
 
     function initializeProgressElement() {
       let navbarHeight = $('#navbar').outerHeight(true);
-      $('body').css({ 'padding-top': navbarHeight });
-      $('progress-container').css({ 'padding-top': navbarHeight });
-      progressBar.css({ top: navbarHeight });
+      {% if site.navbar_fixed == true %}
+        progressBar.css({ top: navbarHeight });
+      {% else %}
+        progressBar.css({ top: "0px" });
+      {% endif %}
+
       progressBar.attr({
         max: getDistanceToScroll(),
         value: getCurrentScrollPosition(),
@@ -64,7 +67,7 @@
      * This is the distance the user can scroll
      */
     function getDistanceToScroll() {
-      return $(document).height() - $(window).height();
+      return $("#main-document").height() - $('#main-viewport').height();
     }
 
     function resizeProgressBar() {

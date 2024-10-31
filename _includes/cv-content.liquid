@@ -16,14 +16,14 @@
     {% if page.embed_cv != true %}
       <!-- stand alone CV page -->
       <h2 class="post-title">
-        {{- page.title | append: pdf_html -}}
+        {{- "Curriculum Vitae" | append: pdf_html -}}
       </h2>
     {% else %}
       <!-- CV embeded in another page -->
       <hr>
       <h3 class="post-title">
         <a href="{{ page.cv_link | relative_url -}}" style="color: inherit">
-          {{- page.cv_title -}}
+          Curriculum Vitae
         </a>
         {{ pdf_html }}
       </h3>

@@ -2,7 +2,7 @@
 layout: about
 title: Joseph Liu
 permalink: /
-nav_link: /#
+nav_link: /#profile
 subtitle:
 header: false
 
@@ -16,11 +16,10 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 embed_cv: true # embed CV in this page
 cv_pdf: joseph-cv.pdf
-cv_title: CV
-cv_link: /cv/
+cv_link: /cv/   # link to standlone CV page
 social: true # includes social icons at the bottom of the page
 ---
-
+<a class="anchor" id="profile"></a>
 ##### Hi there 👋👋.  Glad to see you here!! 🎊
 \
 I am a senior Computer Science student at the [University of Southern California](https://usc.edu). As someone who thrives on exploration rather than repetition, I am passionate about leveraging technology to simplify people's lives by automating tedious tasks – from daily chores and writing to autonomous driving. This vision has led me to explore the transformative potential of Artificial Intelligence and Machine Learning.

@@ -135,7 +135,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: blog # blog_name will be displayed in your blog page
 blog_description: Joseph's blog
-permalink: /blog/:year/:title/
+permalink: /blog/:year/:year-:month:day-:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -194,10 +194,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:year/:month:day-:slug/
+    permalink: /:collection/:year/:year-:month:day-:title/
   projects:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:year/:year-:title/
 
 announcements:
   enabled: true
