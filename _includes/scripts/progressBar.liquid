@@ -29,13 +29,13 @@
     function progressBarSetup() {
       if ('max' in document.createElement('progress')) {
         initializeProgressElement();
-        $("#main-viewport").on('scroll', function () {
+        $(document).on('scroll', function () {
           progressBar.attr({ value: getCurrentScrollPosition() });
         });
         $(window).on('resize', initializeProgressElement);
       } else {
         resizeProgressBar();
-        $("#main-viewport").on('scroll', resizeProgressBar);
+        $(document).on('scroll', resizeProgressBar);
         $(window).on('resize', resizeProgressBar);
       }
     }
@@ -45,7 +45,7 @@
      * how much the user has scrolled from the top
      */
     function getCurrentScrollPosition() {
-      return $("#main-viewport").scrollTop();
+      return $(window).scrollTop();
     }
 
     function initializeProgressElement() {
@@ -67,7 +67,7 @@
      * This is the distance the user can scroll
      */
     function getDistanceToScroll() {
-      return $("#main-document").height() - $('#main-viewport').height();
+      return $(document).height() - $(window).height();
     }
 
     function resizeProgressBar() {

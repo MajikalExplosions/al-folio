@@ -16,13 +16,12 @@
   </head>
 
   <!-- Body -->
-  <body class="scroll-bar-wrap">
-  <div class="scroll-box {% if site.navbar_fixed %} fixed-top-nav {% else %} sticky-top-nav {% endif %} {% if site.footer_fixed %} fixed-bottom-footer {% else %} sticky-bottom-footer {% endif %}"  id="main-viewport">
+  <body>
     <!-- Header -->
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container" role="main" id="main-document">
+    <div class="container {% if site.navbar_fixed %} mt-5 {% else %} mt-3 {% endif %} mb-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
@@ -74,29 +73,5 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
-
-    </div>
-    <!-- for scroll bar removal -->
-    <div class="cover-bar"></div>
-    <!-- Code to hide / show scroll bar -->
-    <script>
-      // helper to hide scroll bar
-      // from https://stackoverflow.com/questions/61979561/fading-scrollbar-when-not-scrolling
-      document.querySelector('.scroll-box').addEventListener('scroll', hideCoverBar);
-      document.querySelector('.scroll-box').addEventListener('mousemove', hideCoverBar);
-      
-      var showTimeout;
-      function hideCoverBar() {
-        document.querySelector('.cover-bar').classList.add('hidden');
-        clearTimeout(showTimeout);
-        showTimeout = setTimeout(showCoverBar, 1000);
-        return true;
-      }
-    
-      function showCoverBar() {
-        document.querySelector('.cover-bar').classList.remove('hidden');
-        return true;
-      }
-    </script>
   </body>
 </html>
