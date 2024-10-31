@@ -20,7 +20,7 @@ cv_link: /cv/   # link to standlone CV page
 social: true # includes social icons at the bottom of the page
 ---
 
-##### Hi there 👋👋.  Glad to see you here!! 🎊
+<h4 class="pb-2" style="font-size: 1.3rem;"> Hi there 👋👋.  Glad to see you here!! 🎊</h4>
 
 I am a senior Computer Science student at the [University of Southern California](https://usc.edu). As someone who thrives on exploration rather than repetition, I am passionate about leveraging technology to simplify people's lives by automating tedious tasks – from daily chores and writing to autonomous driving. This vision has led me to explore the transformative potential of Artificial Intelligence and Machine Learning.
 
