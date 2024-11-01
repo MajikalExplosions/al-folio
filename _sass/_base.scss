@@ -1103,6 +1103,20 @@ nav[data-toggle="toc"] {
   }
 }
 
+#toc-content {
+  h1, h2, h3, h4, h5 {
+    // To sync between scroll and active toc item,
+    // we increase the size of the content box,
+    // shift it up, then push the actual content down
+    // The margin-top should be equalt to 0 - padding-top.
+    // The difference between height and padding-top is
+    // the size of a single line text.
+    height: 10rem;  // set the display box to be tall enough to cover the top navbar and more
+    margin-top: -8rem;  // move the display box up
+    padding-top: 8rem;  // move the content back to where it  need to be
+  }
+}
+
 /* small screens */
 @media (max-width: 576px) {
   /* override stickyness so that the navigation does not follow scrolling */

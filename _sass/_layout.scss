@@ -12,7 +12,7 @@ body {
   h4,
   h5,
   h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 0px;  // for toc to sync, we need to set the margin to 0.
     font-weight: normal !important;
   }
 }
