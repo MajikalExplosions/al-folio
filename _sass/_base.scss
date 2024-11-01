@@ -75,6 +75,11 @@ table {
   padding-right: 3rem;
 }
 
+.about-p {
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -1068,7 +1073,7 @@ progress::-moz-progress-bar {
 
 /* Table of Contents */
 nav[data-toggle="toc"] {
-  top: 3.5rem;  // how far this TOC element to the top screen
+  top: 5rem;  // how far this TOC element to the top screen
 
   .nav > li {
     padding: 0.2rem 0rem 0.2rem 0rem;
@@ -1076,18 +1081,11 @@ nav[data-toggle="toc"] {
     text-indent: -0.5rem;
     margin-left: 0.5rem;
     border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     &:hover {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
     }
-    &.active {
-      color: var(--global-hover-color);
-      border-left-color: var(--global-hover-color);
-    }
-  }
-
-  .nav .nav > li > a {
-    font-size: 0.8rem;
   }
 
   .nav > li > a {
@@ -1098,8 +1096,14 @@ nav[data-toggle="toc"] {
 
   .nav-link.active {
     color: var(--global-theme-color);
-    border-left: 2px solid var(--global-theme-color);;
+    border-left-color: var(--global-theme-color);
+    border-bottom-color: 2px solid var(--global-them-color);
+  }
+
+  .nav-link {
     font-size: 0.8rem;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
   }
 }
 
