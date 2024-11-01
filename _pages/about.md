@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Joseph Liu
+title: About
 permalink: /
-nav_link: /#top
+nav: false
 subtitle:
 header: false
 

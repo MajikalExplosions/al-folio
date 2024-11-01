@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Joseph # the website title (if blank, full name will be used instead)
-nav_show_title: false # should we show title on the navbar
+title: Joseph Liu # the website title (if blank, full name will be used instead)
+nav_show_title: true # should we show title on the navbar
 first_name: Joseph
 middle_name:
 last_name: Liu
