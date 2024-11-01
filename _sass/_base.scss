@@ -1068,31 +1068,38 @@ progress::-moz-progress-bar {
 
 /* Table of Contents */
 nav[data-toggle="toc"] {
-  top: 3.5rem;
+  top: 3.5rem;  // how far this TOC element to the top screen
+
+  .nav > li {
+    padding: 0.2rem 0rem 0.2rem 0rem;
+    line-height: 0.8rem;
+    text-indent: -0.5rem;
+    margin-left: 0.5rem;
+    border-left: 2px solid transparent;
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+    &.active {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+    }
+  }
 
   .nav .nav > li > a {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.75rem;
-
-    &:hover {
-      color: var(--global-hover-color);
-      border-left-color: var(--global-hover-color);
-    }
+    font-size: 0.8rem;
+    padding: .1rem 0rem .1rem .7rem;
   }
 
   .nav-link.active {
     color: var(--global-theme-color);
-    border-left-color: var(--global-theme-color);
-    font-size: 0.75rem;
-
-    &:hover {
-      color: var(--global-hover-color);
-      border-left-color: var(--global-hover-color);
-    }
+    border-left: 2px solid var(--global-theme-color);;
+    font-size: 0.8rem;
   }
 }
 
