@@ -53,7 +53,12 @@
     {% include scripts/search.liquid %}
     <script>
       // remove ghost active nav-link when page load
-      $("a.nav-link.active").removeClass("active");
+      function fixTOCPosition() {
+        $("a.nav-link.active").removeClass("active");
+      }
+      window.onload = function () {
+        setTimeout(fixTOCPosition, 50);
+      }
     </script>
   </body>
 </html>
