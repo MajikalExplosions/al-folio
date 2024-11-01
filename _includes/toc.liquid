@@ -6,25 +6,24 @@ if you want to put the sidebar on the 'left' or 'right' side.
 
 <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
 
+{% capture content_block %}
+  <!-- main content area -->
+  <div id="toc-content" class="col-sm-10" data-spy="scroll" data-target="#toc-sidebar">
+    {{ toc_content }}
+  </div>
+{% endcapture %}
+{% capture sidebar_block %}
+  <div class="col-sm-2 mt-3">
+    <nav id="toc-sidebar"  class="sticky-top"></nav>
+  </div>
+{% endcapture %}
+
+<div class="row">
 {% if toc_sidebar == 'right' %}
-  <div class="row">
-    <!-- main content area -->
-    <div id="toc-content" class="col-sm-10" data-spy="scroll" data-target="#toc-sidebar" data-offset="50">
-      {{ toc_content }}
-    </div>
-    <div class="col-sm-2">
-      <nav id="toc-sidebar" data-toggle="toc" class="sticky-top"></nav>
-    </div>
-  </div>
+  {{ content_block }}
+  {{ sidebar_block }}
 {% else %}
-  <!-- left side toc sidebar -->
-  <div class="row">
-    <div class="col-sm-2">
-      <nav id="toc-sidebar" class="sticky-top"></nav>
-    </div>
-    <!-- main content area -->
-    <div id="toc-content" class="col-sm-10" data-spy="scroll" data-target="#toc-sidebar" data-offset="-500" offset="-500" id="spyed">
-      {{ toc_content }}
-    </div>
-  </div>
+  {{ sidebar_block }}
+  {{ content_block }}
 {% endif %}
+</div>
