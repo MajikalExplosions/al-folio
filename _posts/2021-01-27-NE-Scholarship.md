@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Northeastern University Awards Honors Scholarship to Joseph.
+title: Guess What? I Got into Northeastern's Honors Program (with an $88K Scholarship!)
 date: 2021-01-27 12:00:00-0800
 inline: false
 related_posts: false
