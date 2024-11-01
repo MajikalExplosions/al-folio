@@ -39,6 +39,48 @@
       "courses": ["Algorithms", "Linear Algebra", "Differential Equations"]
     }
   ],
+  "publications": [
+    {
+      "name": "Generative Models in Protein Engineering: A Comprehensive Survey",
+      "author": "Xinhui Chen*,  Yiwen Yuan*,  <i>Joseph Liu*</i>,  Chak Tou Leong,  Xie Zhen,  Xiaoye Zhu,  Yue Wang, Yifei Ke, Ying Chen, Songyue Chen, Chenyi Wang, Kun Li, Jie Zhang, Zuchao Li, and Jiaqi Chen",
+      "publisher": "NeurIPS 2024 Foundation Models for Science Workshop",
+      "releaseDate": "2024-12-15",
+      "url": "https://j.liu.us/assets/pdf/2024-1018-NeurIPS-Protein.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Variable Stars in M31 Stellar Clusters from the Panchromatic Hubble Andromeda Treasury",
+      "author": "Richard Smith,  Avi Patel,  Monika D. Soraisam,  Puragra Guhathakurta,  Pranav Tadepalli,  Sally Zhu,  <i>Joseph Liu</i>, and Léo Girardi, L. Clifton Johnson, Sagnick Mukherjee, Knut A. G. Olsen, Benjamin F. Williams",
+      "publisher": "The Astrophysical Journal",
+      "releaseDate": "2024-10",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ad6eff",
+      "summary": ""
+    },
+    {
+      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "author": "Keyu He*,  Max Li*, and  <i>Joseph Liu*</i>",
+      "publisher": "Technical Report",
+      "releaseDate": "2023-12-11",
+      "url": "https://j.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Predicting Game Popularity from Steam Descriptions",
+      "author": "<i>Joseph Liu</i>",
+      "publisher": "Technical Report",
+      "releaseDate": "2023-05-01",
+      "url": "https://j.liu.us/assets/pdf/2023-0501-Predicting-Game-Popularity.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Variable Stars in M31 Stellar Clusters using the Panchromatic Hubble Andromeda",
+      "author": "Avi Patel, Sagnick Mukherjee, Monika Soraisam, Puragra Guhathakurta, <i>Joseph Liu</i>, and Pranav Tadepalli",
+      "publisher": "Bulletin of the AAS",
+      "releaseDate": "2022-06-29",
+      "url": "https://baas.aas.org/pub/2022n6i201p02",
+      "summary": ""
+    }
+  ],
   "research": [
     {
       "name": "IDM Lab, USC",
@@ -183,48 +225,6 @@
       "awarder": "Financial Aid Office, Santa Clara University",
       "url": "https://j.liu.us/assets/pdf/2021-0318-SCU-Scholarship.pdf",
       "summary": "Santa Clara University's Financial Aid Office awards this competitive merit-based Dean's Scholarship. Recipients receive $8,100, distributed as $2,700 per quarter. The scholarship is renewable for up to twelve consecutive quarters."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Generative Models in Protein Engineering: A Comprehensive Survey",
-      "author": "Xinhui Chen*,  Yiwen Yuan*,  <i>Joseph Liu*</i>,  Chak Tou Leong,  Xie Zhen,  Xiaoye Zhu,  Yue Wang, Yifei Ke, Ying Chen, Songyue Chen, Chenyi Wang, Kun Li, Jie Zhang, Zuchao Li, and Jiaqi Chen",
-      "publisher": "NeurIPS 2024 Foundation Models for Science Workshop",
-      "releaseDate": "2024-12-15",
-      "url": "https://j.liu.us/assets/pdf/2024-1018-NeurIPS-Protein.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Variable Stars in M31 Stellar Clusters from the Panchromatic Hubble Andromeda Treasury",
-      "author": "Richard Smith,  Avi Patel,  Monika D. Soraisam,  Puragra Guhathakurta,  Pranav Tadepalli,  Sally Zhu,  <i>Joseph Liu</i>, and Léo Girardi, L. Clifton Johnson, Sagnick Mukherjee, Knut A. G. Olsen, Benjamin F. Williams",
-      "publisher": "The Astrophysical Journal",
-      "releaseDate": "2024-10",
-      "url": "https://dx.doi.org/10.3847/1538-4357/ad6eff",
-      "summary": ""
-    },
-    {
-      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
-      "author": "Keyu He*,  Max Li*, and  <i>Joseph Liu*</i>",
-      "publisher": "Technical Report",
-      "releaseDate": "2023-12-11",
-      "url": "https://j.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Predicting Game Popularity from Steam Descriptions",
-      "author": "<i>Joseph Liu</i>",
-      "publisher": "Technical Report",
-      "releaseDate": "2023-05-01",
-      "url": "https://j.liu.us/assets/pdf/2023-0501-Predicting-Game-Popularity.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Variable Stars in M31 Stellar Clusters using the Panchromatic Hubble Andromeda",
-      "author": "Avi Patel, Sagnick Mukherjee, Monika Soraisam, Puragra Guhathakurta, <i>Joseph Liu</i>, and Pranav Tadepalli",
-      "publisher": "Bulletin of the AAS",
-      "releaseDate": "2022-06-29",
-      "url": "https://baas.aas.org/pub/2022n6i201p02",
-      "summary": ""
     }
   ],
   "skills": [
