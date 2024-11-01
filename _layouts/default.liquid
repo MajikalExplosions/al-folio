@@ -51,5 +51,9 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
+    <script>
+      // remove ghost active nav-link when page load
+      $("a.nav-link.active").removeClass("active");
+    </script>
   </body>
 </html>
