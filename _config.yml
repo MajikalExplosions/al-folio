@@ -48,10 +48,11 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 search_enabled: true
 socials_in_search: true
 bib_search: true
+socials_in_footer: true
 
 # Dimensions
 max_width: 930px

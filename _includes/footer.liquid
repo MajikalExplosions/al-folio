@@ -1,35 +1,40 @@
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include scripts/newsletter.liquid %}
-    {% endif %}
+<!-- footer.liquid -->
+<div>
+  {% assign footer_top_spacing = true %}
+  {% if site.newsletter.enabled or site.socials_in_footer %}
+    <hr>
+    {% assign footer_top_spacing = true %}
+  {% endif %}
 
-    <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+  <!-- newsletter -->
+  {% if site.newsletter.enabled %}
+    {% include scripts/newsletter.liquid %}
+  {% endif %}
+
+  <!-- Social -->
+  {% if site.socials_in_footer %}
+    {% assign section = "footer" %}
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
     </div>
-  </footer>
-{% endif %}
+  {% endif %}
+
+  {% if site.footer_fixed and footer_top_spacing %}
+    <div class="fixed-footer-spacing"></div>
+  {% endif %}
+
+  <footer class="{% if site.footer_fixed %} fixed-bottom {% else %} sticky-bottom {% endif %}" role="contentinfo">
+  <div class="container">
+    &copy; Copyright {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}. {{ site.footer_text }}
+    {% if site.impressum_path %}
+      <a href="{{ s{ite.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+      Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>  
+</div>

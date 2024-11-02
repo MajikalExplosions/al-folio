@@ -431,6 +431,7 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: center;
+  margin-bottom: 1rem;
 
   .contact-icons {
     font-size: 2rem;
@@ -485,8 +486,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Footer
-footer.fixed-bottom,
-footer.sticky-bottom {
+footer  {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
 
@@ -497,11 +497,25 @@ footer.sticky-bottom {
     text-align: center;
   }
 
+  &fixed-bottom {}
+  &sticky-bottom {}
+
   a {
     color: var(--global-footer-link-color);
-  
   }
 }
+
+.fixed-footer-spacing {
+  margin-bottom: 5rem;
+}
+
+.container-with-footer {
+  display: flex;
+  min-height: 100vh !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 // CV
 
