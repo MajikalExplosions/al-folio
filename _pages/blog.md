@@ -102,6 +102,7 @@ pagination:
 
 {% endif %}
 
+  <!-- Actual Posts -->
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
@@ -140,7 +141,7 @@ pagination:
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
       
-      <p>{{ post.description }}</p>
+      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}

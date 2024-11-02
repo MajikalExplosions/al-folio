@@ -556,7 +556,7 @@ footer.sticky-bottom {
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 
   ul {
     justify-content: center;
@@ -566,8 +566,7 @@ footer.sticky-bottom {
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
-      color: var(--global-text-color-light);
+      padding: 0.5rem 0.5rem;
     }
   }
 }
@@ -586,28 +585,31 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
       margin-bottom: 0;
     }
 
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      padding-top: 0.25rem;
+      font-size: 0.8rem;
+      padding-top: 0rem;
       padding-bottom: 0;
+      margin-bottom: 0rem;
     }
 
     a {
-      color: var(--global-text-color);
+      color: var(--global-theme-color);
       text-decoration: none;
 
       &:hover {
         color: var(--global-theme-color);
+        text-decoration: underline;
       }
     }
 
