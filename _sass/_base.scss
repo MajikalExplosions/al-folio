@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0rem 1rem;
+}
+
 ::-webkit-scrollbar {
   width: .4em;
 }
@@ -1113,6 +1117,22 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+
+  // remove margin for small screen
+  body {
+    margin: 0rem;
+  }
+
+  // user smaller profile pictures
+  .profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    figure {
+      width: 60%;
+    }
   }
 }
 
