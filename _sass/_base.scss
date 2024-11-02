@@ -76,6 +76,12 @@ table {
   font-size: 1.5rem;
   margin-bottom: 0rem;
 }
+// use the following to fix the element being covered
+// by others. is being used to fix the CV heading link
+.fix-click {
+  z-index: 1;
+  position: relative;
+}
 
 a,
 table.table a {
