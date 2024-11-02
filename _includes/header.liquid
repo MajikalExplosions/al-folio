@@ -111,14 +111,15 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                {% assign page_url = page.url | remove: 'index.html' %}
+                <li class="nav-item {% if page_url == parent_link %}active{% endif %} {{page_url}} {{ parent_link }}">
                   {% if p.nav_link %}
                      {% assign url = p.nav_link %}
-                  {% elsif p.permalink contains '/blog/' %}
-                    {% assign url = '/blog/' %}
                   {% else %}
                     {% assign url = p.url %}
                   {% endif %}
+
+
                   <a class="nav-link" href="{{ url | relative_url }}"" onClick=collapseNavbarNav()>
                     {{- p.title }}
                     {% if page.url contains p.url %}

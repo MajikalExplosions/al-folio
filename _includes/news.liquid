@@ -1,3 +1,7 @@
+{% comment %}
+This template create embeded news lists up to site.announcement.limit items.
+And we are not using it now because it's a duplication with blog.
+{% endcomment %}
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}

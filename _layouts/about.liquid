@@ -42,17 +42,20 @@ layout: default
 
     <div class="clearfix a-udash">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
+    <!-- Latest News -->
+    {% if site.announcements.enabled %}
+      {% assign latest_posts_limit = site.announcements.limit %}
+      {% assign tag_to_display = "news" %}
       <hr>
       <p class="about-p">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Recent News</a>
+        <a href="{{ '/blog/tag/news/' | relative_url }}" style="color: inherit">Recent News</a>
       </p>
-      {% include news.liquid limit=true %}
+      {% include latest_posts.liquid %}
     {% endif %}
-
+    
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
+      {% assign latest_posts_limit = site.latest_posts.limit %}
       <hr>
       <p class="about-p">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>

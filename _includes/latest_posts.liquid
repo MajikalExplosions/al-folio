@@ -1,20 +1,34 @@
+{% comment %}
+The following variables will be used to control the behavior of the template:
+  tag_to_display: only display posts with the specific tag
+  latest_posts_limit: how many posts this template will display
+
+The frontmatter directive will be looked at:
+  redirect: URL this post redirect to. Will open in a new window if different website.
+  tags: tags in the post
+{% endcomment %}
+
 <div class="news">
   {% if site.latest_posts != blank %}
     {% assign latest_posts_size = site.posts | size %}
-    <div
-      class="table-responsive"
-      {% if site.latest_posts.scrollable and latest_posts_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    {% capture posts_output %}
       <table class="table table-sm table-borderless">
         {% assign latest_posts = site.posts %}
-        {% if site.latest_posts.limit %}
-          {% assign latest_posts_limit = site.latest_posts.limit %}
-        {% else %}
-          {% assign latest_posts_limit = latest_posts_size %}
-        {% endif %}
-        {% for item in latest_posts limit: latest_posts_limit %}
+        {% unless latest_posts_limit %}
+          {% if site.latest_posts.limit %}
+            {% assign latest_posts_limit = site.latest_posts.limit %}
+          {% else %}
+            {% assign latest_posts_limit = latest_posts_size %}
+          {% endif %}
+        {% endunless %}
+
+        {% assign posts_count = 0 %}
+        {% for item in latest_posts %}
+
+          {% unless tag_to_display == Nil or item.tags contains tag_to_display %}
+            {% continue %}
+          {% endunless %}
+
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
@@ -39,8 +53,22 @@
               {% endif %}
             </td>
           </tr>
+
+          {% assign posts_count = posts_count | plus: 1 %}
+          {% if posts_count >= latest_posts_limit %}
+            {% break %}
+          {% endif %}
         {% endfor %}
       </table>
+    {% endcapture %}
+
+    <div
+      class="table-responsive"
+      {% if site.latest_posts.scrollable and posts_count > 3 %}
+        style="max-height: 25vw"
+      {% endif %}
+    >
+    {{ posts_output }}
     </div>
   {% else %}
     <p>No posts so far...</p>
