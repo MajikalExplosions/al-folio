@@ -1,3 +1,9 @@
+{% comment %}
+This template check the following variable:
+  toc_sidebar: if the caller assign a value, we it will be used to decide
+               where to put the sidebar ('left' or 'right')
+{% endcomment %}
+
 {% include cv-header.liquid %}
 
 {% assign toc_content = "" %}
@@ -12,7 +18,9 @@
 {% endunless %}
 
 {% if toc_sidebar %}
-  <!-- put the content inside toc element -->
+  {% comment %}
+     the toc.liquid put the toc_content inside the toc element 
+  {% endcomment %}
   {% include toc.liquid %}
 {% else %}
   {{ toc_content }}
