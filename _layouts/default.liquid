@@ -20,9 +20,9 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <div class="container-with-footer">
+    <div class="main-container-with-footer">
       <!-- Content -->
-      <div class="container {% if site.navbar_fixed %} mt-5 pt-3 {% else %} mt-3 {% endif %} mb-5" role="main">
+      <div class="container main-container {% if site.navbar_fixed %} mt-5 pt-3 {% else %} mt-3 {% endif %} mb-2" role="main">
         {{ content }}
       </div>
 

@@ -1,9 +1,7 @@
 <!-- footer.liquid -->
 <div>
-  {% assign footer_top_spacing = true %}
   {% if site.newsletter.enabled or site.socials_in_footer %}
     <hr>
-    {% assign footer_top_spacing = true %}
   {% endif %}
 
   <!-- newsletter -->
@@ -19,11 +17,9 @@
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
   {% endif %}
-
-  {% if site.footer_fixed and footer_top_spacing %}
-    <div class="fixed-footer-spacing"></div>
-  {% endif %}
-
+ 
+  <div class="{% if site.footer_fixed %} fixed-footer-spacing{% else %} sticky-footer-spacing{% endif %}"></div>
+ 
   <footer class="{% if site.footer_fixed %} fixed-bottom {% else %} sticky-bottom {% endif %}" role="contentinfo">
   <div class="container">
     &copy; Copyright {{ site.time | date: '%Y' }}

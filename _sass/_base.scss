@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0rem 1rem;
+  margin: 0rem 0rem;
 }
 
 ::-webkit-scrollbar {
@@ -433,11 +433,10 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Social (bottom)
-
+// Social
 .social {
   text-align: center;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 
   .contact-icons {
     font-size: 2rem;
@@ -503,23 +502,28 @@ footer  {
     text-align: center;
   }
 
-  &fixed-bottom {}
-  &sticky-bottom {}
-
   a {
     color: var(--global-footer-link-color);
   }
 }
 
 .fixed-footer-spacing {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
-.container-with-footer {
+.sticky-footer-spacing {
+  margin-bottom: 1rem;
+}
+
+.main-container-with-footer {
   display: flex;
   min-height: 100vh !important;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.main-container {
+  padding: 0rem 2rem;
 }
 
 
@@ -1140,8 +1144,8 @@ nav[data-toggle="toc"] {
   }
 
   // remove margin for small screen
-  body {
-    margin: 0rem;
+  .main-container {
+    padding: 0rem 1rem;
   }
 
   // user smaller profile pictures
