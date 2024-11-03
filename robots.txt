@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /_pages/
-Disallow: /assets/
+Disallow: /noindex/
 
 Sitemap: https://joseph.liu.us/sitemap.xml
