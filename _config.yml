@@ -279,10 +279,6 @@ defaults:
       path: "assets"
     values:
       sitemap: false
-  - scope:
-      path: "redirect"
-    values:
-      sitemap: false
 
 sass:
   style: compressed

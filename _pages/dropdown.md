@@ -1,9 +1,13 @@
 ---
 layout: page
-title: submenus
+title: CV
 nav: false
 nav_order: 8
 dropdown: true
+permalink: /assets/redirect/drop/
+nav_link: /CV
+redirection: /CV
+
 children:
   - title: publications
     permalink: /publications/
