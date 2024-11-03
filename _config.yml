@@ -276,11 +276,11 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "_pages"
+      path: "assets"
     values:
       sitemap: false
   - scope:
-      path: "assets"
+      path: "redirect"
     values:
       sitemap: false
 
