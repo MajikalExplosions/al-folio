@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="0; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+    <script>
+      // Redirect to a new URL
+      location.replace("{{page.redirect}}");
+    </script>
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <div class="main-container-with-footer">
+      <!-- Content -->
+      <div class="container main-container {% if site.navbar_fixed %} mt-5 pt-3 {% else %} mt-3 {% endif %} mb-2" role="main">
+      </div>
+
+      <!-- Footer -->
+      {% include footer.liquid %}
+    </div>
+
+  </body>
+</html>
