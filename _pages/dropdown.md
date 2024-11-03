@@ -4,7 +4,7 @@ title: CV
 nav: false
 nav_order: 8
 dropdown: true
-permalink: /assets/redirect/drop/
+permalink: /noindex/redirect/drop/
 nav_link: /CV
 redirection: /CV
 
