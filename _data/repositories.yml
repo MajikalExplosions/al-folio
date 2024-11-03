@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - MajikalExplosions
+  - jliu7350
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - MajikalExplosions/club_sorting_program
+  - MajikalExplosions/al-folio
+  - MajikalExplosions/OthelloNET
+  - MajikalExplosions/cnn-exoplanet-candidates
+  - ArkBaptistChurch/c.arkbaptistchurch.github.io
+
