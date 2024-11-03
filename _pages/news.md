@@ -5,7 +5,6 @@ nav: true
 nav_order: 2
 nav_link: /blog/tag/news/
 redirect: /blog/tag/news/
-redirect_to: /blog/tag/news/
 ---
 
 {% comment %}
