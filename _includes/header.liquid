@@ -58,23 +58,12 @@
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
-          {% comment %}
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{% if page.nav_link %}{{ page.nav_link | relative_url }}{% else %}{{ '/'  | relative_url }}{% endif %}" onClick="collapseNavbarNav()">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-          {% endcomment %}
-
-          <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              <!-- p.nav -->
               {% if p.dropdown %}
+                <!-- dropdown menu-->
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
                   {% if page.title == child.title %}
@@ -110,9 +99,10 @@
                   </div>
                 </li>
               {% else %}
+                <!-- regular pages-->
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 {% assign page_url = page.url | remove: 'index.html' %}
-                <li class="nav-item {% if page_url == parent_link %}active{% endif %} {{page_url}} {{ parent_link }}">
+                <li class="nav-item {% if page_url == parent_link %}active{% endif %} url-{{page_url}} perma-{{ parent_link }}">
                   {% if p.nav_link %}
                      {% assign url = p.nav_link %}
                   {% else %}
