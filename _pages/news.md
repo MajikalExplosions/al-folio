@@ -6,6 +6,7 @@ nav_order: 2
 permalink: /noindex/redirect/news/
 nav_link: /blog/tag/news/
 redirect: /blog/tag/news/
+sitemap: false
 ---
 
 {% comment %}
