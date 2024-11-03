@@ -3,7 +3,7 @@ layout: redirect
 title: News
 nav: true
 nav_order: 2
-permalink: /blog/tag/news/
+permalink: /_pages/news/
 nav_link: /blog/tag/news/
 redirect: /blog/tag/news/
 ---
