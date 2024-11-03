@@ -2,14 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Joseph Liu # the website title (if blank, full name will be used instead)
+title: Joseph Liu's Home Page # the website title (if blank, full name will be used instead)
 nav_show_title: true # should we show title on the navbar
+nav_show_name: true # instead show title, show name instead
 first_name: Joseph
 middle_name:
 last_name: Liu
 email: joseph@liu.us
 description:  > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hi!! This is Joseph Liu's research and personal homepage!!!
+  This is Joseph Liu's research and personal homepage!!!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
