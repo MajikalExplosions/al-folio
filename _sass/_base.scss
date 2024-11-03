@@ -763,6 +763,8 @@ footer  {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
 
           a {
             color: white;
