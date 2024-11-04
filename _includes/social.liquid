@@ -2,6 +2,12 @@
 This template take one variable.
   section: header or other.  If section is header, some of the social icon won't be displayed
 {% endcomment %}
+
+{% assign hide-social = "" %}
+{% if section == "header" %}
+  {% assign hide-social = "navbar-hide-social" %}
+{% endif %}
+
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
@@ -45,7 +51,7 @@ This template take one variable.
   <a href="https://www.scopus.com/authid/detail.uri?authorId={{ site.scopus_id }}" title="Scopus"><i class="ai ai-scopus"></i></a>
 {% endif %}
 {% if site.github_username %}
-  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a class="{{ hide-social }}" href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
 {% endif %}
 {% if site.linkedin_username %}
   <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
