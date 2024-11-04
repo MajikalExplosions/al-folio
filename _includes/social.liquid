@@ -1,3 +1,7 @@
+{% comment %}
+This template take one variable.
+  section: header or other.  If section is header, some of the social icon won't be displayed
+{% endcomment %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
