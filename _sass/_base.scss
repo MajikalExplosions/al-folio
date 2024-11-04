@@ -349,6 +349,7 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color: var(--global-hover-color);
     }
+    padding: 0.5rem 0.7rem;
   }
 
   .navbar-nav .nav-item.active > .nav-link {
@@ -423,7 +424,7 @@ ul.task-list input[type="checkbox"] {
 
 #light-toggle,
 #search-toggle {
-  padding: 0;
+  padding: 0.5rem 0.2rem;
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
