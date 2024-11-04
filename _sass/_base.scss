@@ -1178,6 +1178,10 @@ nav[data-toggle="toc"] {
   .navbar-hide-social {
     display: none;
   }
+
+  .navbar-brand.social a {
+    padding-right: 0.3rem;
+  }
 }
 
 .featured-posts {
