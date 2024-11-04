@@ -1161,6 +1161,19 @@ nav[data-toggle="toc"] {
       width: 60%;
     }
   }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.2rem;
+  }
+
+  #light-toggle {
+    padding-bottom: 1rem;
+    padding-right: 0.7rem;
+  }
+
+  #search-toggle {
+    padding-right: 0.7rem;
+  }
 }
 
 .featured-posts {
