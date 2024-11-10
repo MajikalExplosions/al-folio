@@ -20,7 +20,7 @@
       "institution": "University of Southern Californa(USC)",
       "location": "Los Angeles, CA",
       "url": "https://www.usc.edu",
-      "area": "Computer Science",
+      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 4.0/4.0)",
       "studyType": "",
       "startDate": "2022-08-15",
       "endDate": "2025-05-15",
@@ -31,7 +31,7 @@
       "institution": "Santa Clara University(SCU)",
       "location": "Santa Clara, CA",
       "url": "https://www.scu.edu",
-      "area": "Computer Science",
+      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 3.94/4.0)",
       "studyType": "",
       "startDate": "2021-09-15",
       "endDate": "2022-06-15",
@@ -43,7 +43,7 @@
     {
       "name": "Generative Models in Protein Engineering: A Comprehensive Survey",
       "author": "Xinhui Chen*,  Yiwen Yuan*,  <b>Joseph Liu*</b>,  Chak Tou Leong,  Xiaoye Zhu, and Jiaqi Chen",
-      "publisher": "NeurIPS 2024 Foundation Models for Science Workshop",
+      "publisher": "NeurIPS 2024 Foundation Models for Science Workshop <b>(poster)</b>",
       "releaseDate": "2024-12-15",
       "url": "https://openreview.net/forum?id=Xc7l84S0Ao",
       "summary": ""
@@ -84,39 +84,58 @@
   "research": [
     {
       "name": "IDM Lab, USC",
-      "position": "",
+      "position": "Learning Heuristics for Multi-Agent Pathfinding",
       "location": "Los Angeles, CA",
       "startDate": "2024-05-15",
       "endDate": "",
-      "summary": "",
-      "highlights": ["Implementing custom Gymnasium reinforcement learning environment for model training", "Designing and optimizing reward functions to enhance model performance", "Developed predictive models to optimize node exploration in ECBS multi-agent pathfinding algorithm", "Mentored by Yimin Tang, advised by Prof. Sven Koenig"]
+      "summary": "Mentored by Yimin Tang, advised by <a href='https://ics.uci.edu/~svenk/'>Prof. Sven Koenig</a>",
+      "highlights": ["<b>Trainable Heuristic Environment</b>: Developed an RL environment to train heuristics for multi-robot path planning, leveraging 4D representations to capture spatial-temporal relationships between robot paths and environmental constraints.", "<b>Two-Phase Training Strategy</b>: Crafted a two-phase training strategy, initially replicating traditional heuristics and subsequently enhancing search efficiency with a node expansion reward system.", "<b>Search Efficiency Assessment Tool</b>: Implementing a quantitative evaluation system based on node expansion metrics, enabling direct measurement of search efficiency improvements for the learned heuristic function."]
     },
     {
       "name": "Data, Interpretability, Language, and Learning (DILL) Lab, USC",
-      "position": "",
+      "position": "LLM-based Text Simplification Evaluation System",
       "location": "Los Angeles, CA",
       "startDate": "2024-01-15",
       "endDate": "",
-      "summary": "",
-      "highlights": ["Developing novel evaluation methods for text simplification tasks", "Implementing Large Language Model (LLM)-driven metrics for model assessment", "Designed and implemented perplexity-based methods, and evaluated performance on human ratings", "Mentored by Xinyue Cui and Yoonsoo Nam, advised by Prof. Swabha Swayamdipta"]
+      "summary": "Mentored by Xinyue Cui and Yoonsoo Nam, advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
+      "highlights": ["<b>Text Simplification Metrics</b>: Designed a novel reference-free metric for text simplification by introducing LLM judges, eliminating the need for specialized training data.", "<b>Model Architecture Design</b>: Developed an efficient evaluation framework utilizing pre-trained models such as Llama 3 without fine-tuning, enabling broad domain coverage and robust simplification assessment.", "<b>Evaluation</b>: Demonstrated superior performance in evaluating simplifications, achieving 51.2% correlation with human judgment and outperforming traditional metrics, such as FKGL and SARI, and trained metrics such as LENS."]
     },
     {
       "name": "Computation and Data Driven Discovery Group, USC",
-      "position": "",
+      "position": "Wildfire Spread Prediction",
       "location": "Los Angeles, CA",
       "startDate": "2023-08-15",
       "endDate": "2023-12-15",
-      "summary": "",
-      "highlights": ["Worked on physics-informed machine learning techniques to model wildfire spread using diffusion and GAN models", "Mentored by Bryan Shaddy, advised by Prof. Assad Oberai"]
+      "summary": "Mentored by Bryan Shaddy, advised by <a href='https://viterbi.usc.edu/directory/faculty/Oberai/Assad'>Prof. Assad Oberai</a>",
+      "highlights": ["Worked on physics-informed machine learning techniques to model wildfire spread using diffusion and GAN models"]
     },
     {
-      "name": "Researcher (Variable Stars in Andromeda Galaxy), UC Santa Cruz",
-      "position": "",
+      "name": "UC Santa Cruz",
+      "position": "Variable Stars in Andromeda Galaxy",
       "location": "Santa Cruz, CA",
       "startDate": "2020-06-15",
       "endDate": "2021-08-15",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ad6eff",
+      "summary": "Mentored by Sagnick Mukherjee, advised by <a href='https://www.astro.ucsc.edu/faculty/index.php?uid=pguhatha'>Prof. Puragra Guhathakurta</a>",
+      "highlights": ["<b>Hybrid Variable Star Detection Strategy</b>: Combined statistical analysis of PHAT survey light curves with difference imaging to identify variable stars in M31 stellar clusters using HST observations.","<b>Data Cleaning and Collection</b>: Organized, filtered, and cleaned datapoints of millions of stars, including work in database query optimization, parallelization, and computational geometry", "<b>Variable Star Census and Classification</b>: Established a catalog of 86 luminous variables (F814W < 19) in M31 clusters, with comprehensive characterization of their evolutionary phases and initial masses (0.8-67M ⊙) based on theoretical isochrones."]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Generative Models in Protein Engineering",
       "summary": "",
-      "highlights": ["Built a webpage and a graphical Python application to help efficiently visualize, categorize, and compare 1000+ stars", "Discovered and identified missing portions of the PHAT dataset around brick edges with computational geometry", "Optimized database queries by a factor of over 100, by reducing request count using batching, slicing data, and joins", "Parallelized cubic-time array operations in difference imaging data pipelines using NumPy matrix operations", "Mentored and supervised team of high school students, providing technical guidance and reference materials to Python libraries and previous work during and outside of weekly meetings", "Co-authored a paper in 2024 and a poster in 2022"]
+      "highlights": [ "<b>Protein Model Classification</b>: Systematically categorized protein generative models through a multi-dimensional framework, encompassing inference methodologies (diffusion-based/autoregressive) and modeling targets (sequence/structure), establishing a structured overview of this emerging field’s technical landscape.", "<b>Protein Diffusion Model Comparison</b>: Established a comparison framework for protein diffusion models across two fundamental dimensions: the mathematical representation level and the structural invariance level, revealing how modeling choices affect protein structure design.", "<b>Future Directions in Protein Modeling</b>: Identified critical challenges and future opportunities in protein generative models, emphasizing the transition from data limitations to large-scale datasets and hybrid modeling approaches." ],
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "url": "https://openreview.net/forum?id=Xc7l84S0Ao"
+    },
+    {
+      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "summary": "",
+      "highlights": [ "<b>Debugging Prompt Engineering</b>: Integrated prompt engineering into LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, including CodeBLEU, CodeROUGE, and CodeF1, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset by integrating Java and Leetcode to replicate real-world programming bugs for dynamic analysis." ],
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-15",
+      "url": "https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf"
     }
   ],
   "teaching": [
@@ -127,7 +146,7 @@
       "startDate": "2024-05-15",
       "endDate": "2024-07-15",
       "summary": "",
-      "highlights": ["Teaching Assistant for CSCI-201: Principles of Software Development", "Helped the professor prepare the computer lab exercises and coached students in the lab for their coding assignments"]
+      "highlights": ["Teaching Assistant for CSCI-201: Principles of Software Development for <a href='https://viterbi.usc.edu/directory/faculty/Adamchik/Victor'>Prof. Victor Adamchik</a>", "Helped the professor prepare the computer lab exercises and coached students in the lab for their coding assignments"]
     },
     {
       "name": "Santa Clara University",
@@ -136,7 +155,7 @@
       "startDate": "2022-03-15",
       "endDate": "2022-06-15",
       "summary": "",
-      "highlights": ["Grader for CSCI 163: Theory of Algorithms", "As a freshman, graded homework and exams for a course primarily taken by upperclassmen"]
+      "highlights": ["Grader for CSCI 163: Theory of Algorithms for <a href='https://www.scu.edu/cas/mathcs/faculty-and-staff/nicholas-tran/'>Prof. Nicholas Tran</a>", "As a freshman, graded homework and exams for a course primarily taken by upperclassmen"]
     }
   ],
   "work": [
@@ -147,7 +166,7 @@
       "startDate": "2023-05-15",
       "endDate": "2023-08-15",
       "summary": "",
-      "highlights": ["Refactored and automated machine learning sales prediction pipeline, decreasing interruptions by 86%, runtime by 30% and cost by 25%", "Increased data quality by identifying and fixing multiple functional bugs that affected 60% of sales dataset", "Investigated potential features for better model performance and candidates for further feature engineering", "Presented findings and work to an audience of 80, including multiple directors and VPs", "Received return offer for Summer 2024"]
+      "highlights": ["<b>Pipeline Optimization</b>: Led end-to-end optimization of ML sales prediction pipeline, achieving 86% reduction in interruptions, 30% faster runtime, and 25% cost savings while improving data quality by fixing critical bugs affecting 60% of the dataset.", "<b>Research Leadership</b>: Spearheaded feature engineering initiatives and performance optimization research, presenting findings to 80+ stakeholders including directors and VPs.", "<b>Performance Recognition</b>: Demonstrated exceptional performance resulting in return offer for Summer 2024"]
     },
     {
       "name": "iKala Interactive Media Inc.",
@@ -156,45 +175,7 @@
       "startDate": "2022-06-15",
       "endDate": "2022-08-15",
       "summary": "",
-      "highlights": ["Researched state-of-the-art methodologies in Computer Vision (CV) and Natural Language Processing (NLP) for video analysis, presenting weekly findings to intern team", "Designed and implemented a Transformer-based model for multimodal (video and audio) embedding generation with PyTorch, achieving 60% precision on AudioSet dataset"]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Medical Case Report Search with AI",
-      "summary": "Developing website to search case report database using intelligent symptom and complication matching",
-      "highlights": [ ],
-      "startDate": "2024-09-01",
-      "endDate": ""
-    },
-    {
-      "name": "Generative Models in Protein Engineering",
-      "summary": "Investigated protein representations and generation approaches, and current challenges and opportunities in generative protein models",
-      "highlights": [ ],
-      "startDate": "2024-08-01",
-      "endDate": ""
-    },
-    {
-      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
-      "summary": "Investigated the effects of prompt engineering techniques like chain-of-thought on debugging skills of general LLMs and analyzed failure cases to identify causes",
-      "highlights": [ ],
-      "startDate": "2023-09-01",
-      "endDate": "2024-01-15",
-      "url": "https://drive.google.com/file/d/1UDPu4PEG_EYSDQk2ww7RyaXdnmBFShyj/view?usp=drive_link"
-    },
-    {
-      "name": "Earnings Call Analysis with Machine Learning",
-      "summary": "Automated scraping of earnings call transcripts from multiple online sources, analyzed sentiment using AWS SageMaker, built pipeline to extract audio features, and computed embeddings for machine learning using open-source libraries",
-      "highlights": [ ],
-      "startDate": "2021-11-01",
-      "endDate": "2022-06-30"
-    },
-    {
-      "name": "Using CNNs to Identify Exoplanet Candidates",
-      "summary": "Conducted independent research into feasibility of using CNNs on photometric data to identify candidate exoplanets; collected and augmented data to train 3DCNN model for binary classification with PyTorch, achieving 61% accuracy",
-      "highlights": [ ],
-      "startDate": "2021-09-01",
-      "endDate": "2022-03-30"
+      "highlights": ["<b>Video Analysis Research</b>: Researched state-of-the-art methodologies in Computer Vision (CV) and Natural Language Processing (NLP) for video analysis.", "<b>Audio-Video Embedding</b>: Designed and implemented a Transformer-based model for multimodal (video and audio) embedding generation with PyTorch, achieving 60% precision on AudioSet dataset."]
     }
   ],
   "awards": [
