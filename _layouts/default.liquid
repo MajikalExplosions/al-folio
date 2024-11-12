@@ -58,9 +58,9 @@
       function fixTOCPosition() {
         $("a.nav-link.active").removeClass("active");
       }
-      window.onload = function () {
+      addEventListener("load", function () {
         setTimeout(fixTOCPosition, 50);
-      }
+      });
     </script>
   </body>
 </html>
