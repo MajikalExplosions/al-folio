@@ -297,8 +297,10 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.9;
-  padding: 0rem 1rem;
+  padding: 0rem;
 }
+
+
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -1148,7 +1150,7 @@ nav[data-toggle="toc"] {
 
   // remove margin for small screen
   .main-container {
-    padding: 0rem 1rem;
+    padding: 0rem 1rem !important;
   }
 
   // user smaller profile pictures
