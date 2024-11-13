@@ -25,7 +25,7 @@
       "startDate": "2022-08-15",
       "endDate": "2025-05-15",
       "score": "4.0",
-      "courses": ["Artficial Intelligence", "Machine Learning", "LLMs in Natural Language Processing", "Foundations of Multi-Agent Systems", "Probablity", "Statistical Inference and Data Analysis", "Discrete Math", "Operating Systems", "Computer Systems"]
+      "courses": ["Artificial Intelligence", "Machine Learning", "LLMs in Natural Language Processing", "Foundations of Multi-Agent Systems", "Probablity", "Statistical Inference and Data Analysis", "Discrete Math", "Operating Systems", "Computer Systems"]
     },
     {
       "institution": "Santa Clara University(SCU)",
