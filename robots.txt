@@ -4,5 +4,6 @@ permalink: /robots.txt
 User-agent: *
 Disallow: /_pages/
 Disallow: /noindex/
+Disallow: /assets/pdf/2024-11*.pdf$
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
