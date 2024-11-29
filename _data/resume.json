@@ -31,20 +31,34 @@
       "institution": "Santa Clara University(SCU)",
       "location": "Santa Clara, CA",
       "url": "https://www.scu.edu",
-      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 3.94/4.0)",
+      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 3.935/4.0)",
       "studyType": "",
       "startDate": "2021-09-15",
       "endDate": "2022-06-15",
-      "score": "3.94",
+      "score": "3.935",
       "courses": ["Algorithms", "Linear Algebra", "Differential Equations"]
     }
   ],
   "publications": [
     {
+      "name": "Judging Text Simplicity with Large Language Models",
+      "author": "<b>Joseph Liu</b> and Xinyue Cui and Yoonsoo Nam and Swabha Swayamdipta",
+      "publisher": "In Preparation",
+      "releaseDate": "2024-12",
+      "url" : "/redirect?r=/assets/pdf/2024-1201-Text-Simp.pdf"
+    },
+    {
+      "name": "Symbolic Representation for Any-to-Any Generative Tasks",
+      "author": "Jiaqi Chen, Xiaoye Zhu, Yue Wang, Tianyang Liu, Xinhui Chen, Ying Chen, Chak Tou Leong, Yifei Ke, <b>Joseph Liu</b>, Yiwen Yuan, Julian McAuley, Li-jia Li",
+      "publisher": "Under Review",
+      "releaseDate": "2024-12",
+      "url" : "/redirect?r=/assets/pdf/2024-1100-Symbolic-Representation.pdf"
+    },
+    {
       "name": "Generative Models in Protein Engineering: A Comprehensive Survey",
       "author": "Xinhui Chen*,  Yiwen Yuan*,  <b>Joseph Liu*</b>,  Chak Tou Leong,  Xiaoye Zhu, and Jiaqi Chen",
       "publisher": "NeurIPS 2024 Foundation Models for Science Workshop <b>(poster)</b>",
-      "releaseDate": "2024-12-15",
+      "releaseDate": "2024-11",
       "url": "https://openreview.net/forum?id=Xc7l84S0Ao",
       "summary": ""
     },
@@ -60,7 +74,7 @@
       "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
       "author": "Keyu He*,  Max Li*, and  <b>Joseph Liu*</b>",
       "publisher": "Technical Report",
-      "releaseDate": "2023-12-11",
+      "releaseDate": "2023-12",
       "url": "https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf",
       "summary": ""
     },
@@ -68,7 +82,7 @@
       "name": "Predicting Game Popularity from Steam Descriptions",
       "author": "<b>Joseph Liu</b>",
       "publisher": "Technical Report",
-      "releaseDate": "2023-05-01",
+      "releaseDate": "2023-05",
       "url": "https://joseph.liu.us/assets/pdf/2023-0501-Predicting-Game-Popularity.pdf",
       "summary": ""
     },
