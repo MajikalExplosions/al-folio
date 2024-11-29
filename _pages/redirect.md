@@ -3,7 +3,7 @@ layout: none
 title: Redirect
 nav: false
 nav_order: 100
-permalink: /redirect/
+permalink: /r/
 sitemap: false
 ---
 

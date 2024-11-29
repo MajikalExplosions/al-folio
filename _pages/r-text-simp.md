@@ -1,10 +1,10 @@
 ---
 layout: redirect
-title: Symbolic CVPR Submission 
+title: Text  
 nav: false
 nav_order: 100
-permalink: /r/cvpr-symbolic
-redirect: /blog/2024/2024-1115-CVPR-Symbolic-Representation
+permalink: /r/text-simp
+redirect: /assets/pdf/2024-1201-Text-Simp.pdf
 sitemap: false
 ---
 
