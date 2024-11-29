@@ -4,7 +4,7 @@ title: Symbolic CVPR Submission
 nav: false
 nav_order: 100
 permalink: /r/cvpr-symbolic
-redirect: /blog/2024/2024-1115-CVPR-Symbolic-Representation
+redirect: /assets/pdf/2024-1100-Symbolic-Representation.pdf
 sitemap: false
 ---
 
