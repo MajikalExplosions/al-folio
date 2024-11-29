@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /_pages/
 Disallow: /noindex/
+Disallow: /assets/pdf/2024-11*.pdf$
+Disallow: /
 
 Sitemap: https://joseph.liu.us/sitemap.xml
