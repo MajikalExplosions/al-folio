@@ -7,6 +7,7 @@ permalink: /r/
 sitemap: false
 ---
 
+{% include scripts/analytics.liquid %}
 <script>
   var query = window.location.search.substring(1);
   var vars = query.split('&');
@@ -16,6 +17,7 @@ sitemap: false
 
     if (pair[0] === "r") {
         r = decodeURIComponent(pair[1]);
+        break;
     }
   }
   location.replace(r);
