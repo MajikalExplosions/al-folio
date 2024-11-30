@@ -1,10 +1,10 @@
 ---
 layout: redirect
-title: CVPR Symbolic Representation
+title: Enhancing Debugging Skills
 nav: false
 nav_order: 100
-permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2024-1100-Symbolic-Representation.pdf
+permalink: /r/tdbg
+redirect: https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf
 sitemap: false
 ---
 

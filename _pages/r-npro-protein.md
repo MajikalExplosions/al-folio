@@ -1,10 +1,10 @@
 ---
 layout: redirect
-title: CVPR Symbolic Representation
+title: NeurIPS Protein 
 nav: false
 nav_order: 100
-permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2024-1100-Symbolic-Representation.pdf
+permalink: /r/npro
+redirect: https://openreview.net/forum?id=Xc7l84S0Ao
 sitemap: false
 ---
 

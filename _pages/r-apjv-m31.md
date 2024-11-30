@@ -1,10 +1,10 @@
 ---
 layout: redirect
-title: CVPR Symbolic Representation
+title:  APJ Variable Stars in M31
 nav: false
 nav_order: 100
-permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2024-1100-Symbolic-Representation.pdf
+permalink: /r/apjv
+redirect: https://iopscience.iop.org/article/10.3847/1538-4357/ad6eff/meta
 sitemap: false
 ---
 

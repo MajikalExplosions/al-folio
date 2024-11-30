@@ -1,10 +1,10 @@
 ---
 layout: redirect
-title: CVPR Symbolic Representation
+title: Predicting Game Popularity
 nav: false
 nav_order: 100
-permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2024-1100-Symbolic-Representation.pdf
+permalink: /r/tpre
+redirect: https://joseph.liu.us/assets/pdf/2023-0501-Predicting-Game-Popularity.pdf
 sitemap: false
 ---
 
