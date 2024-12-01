@@ -10,6 +10,7 @@
   --global-text-color: #{$grey-color-light-dark};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$red-color-darker};
+  --global-search-text-color: #{$white-color};
   --global-hover-color: #{$red-color-darker};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
@@ -78,6 +79,7 @@ html[data-theme="dark"] {
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$red-color-lighter};
+  --global-search-text-color: #{$white-color};
   --global-hover-color: #{$red-color-lighter};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$off-white-color};
