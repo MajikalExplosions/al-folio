@@ -18,19 +18,20 @@
     </div>
   {% endif %}
  
-  <div class="{% if site.footer_fixed %} fixed-footer-spacing{% else %} sticky-footer-spacing{% endif %}"></div>
+  <div class="{% if site.footer_fixed %} fixed-footer-spacing {% else %} sticky-footer-spacing {% endif %}"></div>
  
   <footer class="{% if site.footer_fixed %} fixed-bottom {% else %} sticky-bottom {% endif %}" role="contentinfo">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }}
-    {{ site.first_name }}
-    {{ site.middle_name }}
-    {{ site.last_name }}. {{ site.footer_text }}
-    {% if site.impressum_path %}
-      <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-    {% endif %}
-    {% if site.last_updated %}
-      Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>  
+    <div class="container">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>  
+  </footer>
 </div>
