@@ -5,6 +5,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - Keyu-He/Enhancing-Debugging-Skills-of-LLMs-with-Prompt-Engineering
+  - jliu7350/csci467_final_project
   - MajikalExplosions/club_sorting_program
   - MajikalExplosions/al-folio
   - MajikalExplosions/OthelloNET
