@@ -15,7 +15,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-embed_cv: true # embed CV in this page
+embed_cv: false # embed CV in this page
 cv_pdf: joseph-cv.pdf
 cv_link: /cv/   # link to standlone CV page
 social: true # includes social icons at the bottom of the page
