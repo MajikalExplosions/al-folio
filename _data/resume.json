@@ -111,8 +111,33 @@
       "location": "Los Angeles, CA",
       "startDate": "2024-01-15",
       "endDate": "",
+      "url": "https://joseph.liu.us/r/text",
       "summary": "Mentored by Xinyue Cui and Yoonsoo Nam, advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
       "highlights": ["<b>Text Simplification Metrics</b>: Designed a novel reference-free metric for text simplification by introducing LLM judges, eliminating the need for specialized training data.", "<b>Model Architecture Design</b>: Developed an efficient evaluation framework utilizing pre-trained models such as Llama 3 without fine-tuning, enabling broad domain coverage and robust simplification assessment.", "<b>Evaluation</b>: Demonstrated superior performance in evaluating simplifications, achieving 51.2% correlation with human judgment and outperforming traditional metrics, such as FKGL and SARI, and trained metrics such as LENS."]
+    },
+    {
+      "position": "Symbolic Representation for Any-to-Any Generative Tasks",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "url": "https://joseph.liu.us/r/cvpr",
+      "summary": "",
+      "highlights": ["<b>Symbolic Any-to-any Paradigm</b>: Introduced a symbolic language with functions, parameters, and topologies, enabling flexible representation of any-to-any generative tasks (e.g., image-to-video, image-to-3D, image merging, etc.).", "<b>Training-free Inference</b>: Developed a training-free inference engine that transforms natural language task descriptions into executable symbolic flows, allowing seamless task execution as a program."]
+    },
+    {
+      "position": "Generative Models in Protein Engineering",
+      "summary": "",
+      "highlights": [ "<b>Protein Model Classification</b>: Systematically categorized protein generative models through a multi-dimensional framework, encompassing inference methodologies (diffusion-based/autoregressive) and modeling targets (sequence/structure), establishing a structured overview of this emerging field’s technical landscape.", "<b>Protein Diffusion Model Comparison</b>: Established a comparison framework for protein diffusion models across two fundamental dimensions: the mathematical representation level and the structural invariance level, revealing how modeling choices affect protein structure design.", "<b>Future Directions in Protein Modeling</b>: Identified critical challenges and future opportunities in protein generative models, emphasizing the transition from data limitations to large-scale datasets and hybrid modeling approaches." ],
+      "startDate": "2024-08",
+      "endDate": "2024-12",
+      "url": "https://openreview.net/forum?id=Xc7l84S0Ao"
+    },
+    {
+      "position": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "summary": "Advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
+      "highlights": [ "<b>Debugging Prompt Engineering</b>: Integrated prompt engineering into LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, including CodeBLEU, CodeROUGE, and CodeF1, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset by integrating Java and Leetcode to replicate real-world programming bugs for dynamic analysis." ],
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-15",
+      "url": "https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf"
     },
     {
       "name": "Computation and Data Driven Discovery Group, USC",
@@ -132,24 +157,6 @@
       "url": "https://dx.doi.org/10.3847/1538-4357/ad6eff",
       "summary": "Mentored by Sagnick Mukherjee, advised by <a href='https://www.astro.ucsc.edu/faculty/index.php?uid=pguhatha'>Prof. Puragra Guhathakurta</a>",
       "highlights": ["<b>Hybrid Variable Star Detection Strategy</b>: Combined statistical analysis of PHAT survey light curves with difference imaging to identify variable stars in M31 stellar clusters using HST observations.","<b>Data Cleaning and Collection</b>: Organized, filtered, and cleaned datapoints of millions of stars, including work in database query optimization, parallelization, and computational geometry", "<b>Variable Star Census and Classification</b>: Established a catalog of 86 luminous variables (F814W < 19) in M31 clusters, with comprehensive characterization of their evolutionary phases and initial masses (0.8-67M ⊙) based on theoretical isochrones."]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Generative Models in Protein Engineering",
-      "summary": "",
-      "highlights": [ "<b>Protein Model Classification</b>: Systematically categorized protein generative models through a multi-dimensional framework, encompassing inference methodologies (diffusion-based/autoregressive) and modeling targets (sequence/structure), establishing a structured overview of this emerging field’s technical landscape.", "<b>Protein Diffusion Model Comparison</b>: Established a comparison framework for protein diffusion models across two fundamental dimensions: the mathematical representation level and the structural invariance level, revealing how modeling choices affect protein structure design.", "<b>Future Directions in Protein Modeling</b>: Identified critical challenges and future opportunities in protein generative models, emphasizing the transition from data limitations to large-scale datasets and hybrid modeling approaches." ],
-      "startDate": "2024-08-01",
-      "endDate": "",
-      "url": "https://openreview.net/forum?id=Xc7l84S0Ao"
-    },
-    {
-      "name": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
-      "summary": "",
-      "highlights": [ "<b>Debugging Prompt Engineering</b>: Integrated prompt engineering into LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, including CodeBLEU, CodeROUGE, and CodeF1, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset by integrating Java and Leetcode to replicate real-world programming bugs for dynamic analysis." ],
-      "startDate": "2023-09-01",
-      "endDate": "2024-01-15",
-      "url": "https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf"
     }
   ],
   "teaching": [
