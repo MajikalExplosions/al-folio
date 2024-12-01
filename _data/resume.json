@@ -90,7 +90,7 @@
       "name": "Variable Stars in M31 Stellar Clusters using the Panchromatic Hubble Andromeda",
       "author": "Avi Patel, Sagnick Mukherjee, Monika Soraisam, Puragra Guhathakurta, <b>Joseph Liu</b>, and Pranav Tadepalli",
       "publisher": "Bulletin of the AAS",
-      "releaseDate": "2022-06-29",
+      "releaseDate": "2022-06",
       "url": "https://baas.aas.org/pub/2022n6i201p02",
       "summary": ""
     }
@@ -133,6 +133,7 @@
     },
     {
       "position": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
+      "location": "Los Angeles, CA",     
       "summary": "Advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
       "highlights": [ "<b>Debugging Prompt Engineering</b>: Integrated prompt engineering into LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, including CodeBLEU, CodeROUGE, and CodeF1, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset by integrating Java and Leetcode to replicate real-world programming bugs for dynamic analysis." ],
       "startDate": "2023-09-01",
