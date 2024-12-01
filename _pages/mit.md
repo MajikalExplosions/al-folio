@@ -1,10 +1,11 @@
 ---
 layout: about
-title: About
-permalink: /
+title: MIT
+permalink: /mit
 nav: false
 subtitle:
 header: false
+sitemap: false
 
 profile:
   align: left
