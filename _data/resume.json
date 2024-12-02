@@ -113,7 +113,7 @@
       "endDate": "",
       "url": "https://joseph.liu.us/r/text",
       "summary": "Mentored by Xinyue Cui and Yoonsoo Nam, advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
-      "highlights": ["<b>Text Simplification Metrics</b>: Designed a novel reference-free metric for text simplification by introducing LLM judges, eliminating the need for specialized training data.", "<b>Model Architecture Design</b>: Developed an efficient evaluation framework utilizing pre-trained models such as Llama 3 without fine-tuning, enabling broad domain coverage and robust simplification assessment.", "<b>Evaluation</b>: Demonstrated superior performance in evaluating simplifications, achieving 51.2% correlation with human judgment and outperforming traditional metrics, such as FKGL and SARI, and trained metrics such as LENS."]
+      "highlights": ["<b>Text Simplification Metrics</b>: Designed a novel reference-free metric for text simplification by introducing LLM judges, eliminating the need for specialized training data.", "<b>Model Architecture Design</b>: Developed an efficient evaluation framework utilizing pre-trained models such as Llama 3 without fine-tuning, enabling broad domain coverage and robust simplification assessment.", "<b>Evaluation</b>: Demonstrated superior performance in evaluating simplifications, achieving a correlation of 0.54 with human judgment and outperforming traditional metrics, such as FKGL and SARI, and trained metrics such as LENS."]
     },
     {
       "position": "Symbolic Representation for Any-to-Any Generative Tasks",
