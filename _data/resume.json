@@ -43,14 +43,14 @@
     {
       "name": "Symbolic Representation for Any-to-Any Generative Tasks",
       "author": "Jiaqi Chen, Xiaoye Zhu, Yue Wang, Tianyang Liu, Xinhui Chen, Ying Chen, Chak Tou Leong, Yifei Ke, <b>Joseph Liu</b>, Yiwen Yuan, Julian McAuley, Li-jia Li",
-      "publisher": "CVPR 2025 (Under Review)",
+      "publisher": "(under review at CVPR 2025)",
       "releaseDate": "2024-12",
       "url" : "https://joseph.liu.us/r/cvpr"
     },
     {
       "name": "Judging Text Simplicity with Large Language Models",
       "author": "<b>Joseph Liu</b>, Xinyue Cui, Yoonsoo Nam, Swabha Swayamdipta",
-      "publisher": "In Preparation",
+      "publisher": "(in preparation for ACL submission)",
       "releaseDate": "2024-12",
       "url" : "https://joseph.liu.us/r/text"
     },
@@ -135,7 +135,7 @@
       "position": "Enhancing Debugging Skills of LLMs with Prompt Engineering",
       "location": "Los Angeles, CA",     
       "summary": "Advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
-      "highlights": [ "<b>Debugging Prompt Engineering</b>: Integrated prompt engineering into LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, including CodeBLEU, CodeROUGE, and CodeF1, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset by integrating Java and Leetcode to replicate real-world programming bugs for dynamic analysis." ],
+      "highlights": [ "<b>Debugging Prompt Engineering</b>: Used prompt engineering with pretrained LLMs to boost performance in debugging tasks through few-shot learning and chain-of-thought prompting.", "<b>Multidimensional Evaluation Metrics</b>: Developed and implemented a comprehensive set of evaluation metrics, both similarity-based and executable, to quantitatively assess LLM debugging performance.", "<b>Real-World Error Dataset Construction</b>: Constructed a dataset of Java Leetcode solutions to replicate real-world programming bugs for dynamic analysis." ],
       "startDate": "2023-09-01",
       "endDate": "2024-01-15",
       "url": "https://joseph.liu.us/assets/pdf/2023-1211-Enhancing-Debugging.pdf"
