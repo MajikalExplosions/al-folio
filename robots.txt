@@ -5,7 +5,5 @@ User-agent: *
 Disallow: /_pages/
 Disallow: /noindex/
 Disallow: /r/
-Disallow: /assets/pdf/2024-11*.pdf$
-Disallow: /
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
