@@ -4,7 +4,7 @@ title: CVPR Symbolic Representation
 nav: false
 nav_order: 100
 permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2024-1100-Symbolic-Representation.pdf
+redirect: https://joseph.liu.us/assets/pdf/2025-0226-CVPR-Symbolic-Generation.pdf
 sitemap: false
 ---
 

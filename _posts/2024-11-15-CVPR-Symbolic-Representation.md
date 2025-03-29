@@ -4,7 +4,7 @@ title: We submitted a paper to CVPR 2025
 date: 2024-11-15 12:00:00-0800
 inline: false
 related_posts: false
-tags: news paper
+tags: paper
 sitemap: false
 ---
 
