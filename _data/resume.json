@@ -48,9 +48,9 @@
       "url" : "https://joseph.liu.us/r/cvpr"
     },
     {
-      "name": "Judging Text Simplicity with Large Language Models",
-      "author": "<b>Joseph Liu</b>, Xinyue Cui, Yoonsoo Nam, Swabha Swayamdipta",
-      "publisher": "(in preparation for COLM 2025 submission)",
+      "name": "Evaluation Under Imperfect Benchmarks and Ratings: A Case Study in Text Simplification",
+      "author": "<b>Joseph Liu</b>, Yoonsoo Nam, Xinyue Cui, Swabha Swayamdipta",
+      "publisher": "(submitted to COLM 2025)",
       "releaseDate": "2025-10",
       "url" : "https://joseph.liu.us/r/text"
     },
