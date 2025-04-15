@@ -4,7 +4,7 @@ title: Text
 nav: false
 nav_order: 100
 permalink: /r/text
-redirect: https://joseph.liu.us/assets/pdf/2025-0228-COLM-Text-Simplification.pdf
+redirect: https://arxiv.org/abs/2504.09394
 sitemap: false
 ---
 
