@@ -4,6 +4,5 @@ permalink: /robots.txt
 User-agent: *
 Disallow: /_pages/
 Disallow: /noindex/
-Disallow: /r/
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
